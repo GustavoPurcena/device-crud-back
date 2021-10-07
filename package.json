@@ -1,0 +1,25 @@
+{
+  "name": "device-crud-back",
+  "version": "1.0.0",
+  "description": "device management web app crud",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoPurcena/device-crud-back.git"
+  },
+  "author": "gustavopurcena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoPurcena/device-crud-back/issues"
+  },
+  "homepage": "https://github.com/GustavoPurcena/device-crud-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
