@@ -1,8 +1,8 @@
 module.exports = {
     HOST: "localhost",
-    USER: "root",
-    PASSWORD: "",
-    DB: "testdb",
+    USER: "challenger",
+    PASSWORD: "password",
+    DB: "eldorado_challenge",
     dialect: "mysql",
     pool: {
         max: 5,
@@ -11,4 +11,3 @@ module.exports = {
         idle: 10000
     }
 };
-
